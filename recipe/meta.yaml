@@ -1,5 +1,5 @@
 {% set name = "latex2mathml" %}
-{% set version = "3.76.0" %}
+{% set version = "3.77.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/latex2mathml-{{ version }}.tar.gz
-  sha256: b3ebae966ba2b578b4284738f44960791c204601271b43ddc4df5dd9d02cab0b
+  sha256: e2f501d1878f2e489c3f6f12786bef74c62f712d2770f7f3c837eb20a55d0a1e
 
 build:
   noarch: python
